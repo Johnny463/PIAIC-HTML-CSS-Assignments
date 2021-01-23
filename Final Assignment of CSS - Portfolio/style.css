@@ -1,0 +1,124 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+.upper-header{
+    list-style-type: none;
+    color: black;
+}
+.upper-header li{
+    display: inline ;
+    padding: 0px 20px;
+}
+.upper-header li a{
+    transition: all 0.3s ease os;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+
+}
+.up h5{
+    color: cornsilk;
+    font-size: larger;
+    letter-spacing: 2px;
+    
+}
+.upper-header li a:hover{
+    color: rgb(255, 254, 254);
+}
+.up{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: black
+    
+}
+button{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    width: 100px;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    background-color: lawngreen;
+   padding: 10px;
+}
+body{
+  background-image: url(po.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px ;
+    background-image:none;
+    background-color: white;
+   
+}
+.logo{
+    cursor: pointer;  
+}
+
+
+.menu-bar{
+list-style-type: none;
+}
+.menu-bar li{
+    display: inline-block;
+  
+    padding: 0px 20px;
+  
+}
+.menu-bar li a{
+    transition: all 0.3s ease os;
+    text-decoration: none;
+    color:black;
+
+}
+.menu-bar li a:hover{
+ 
+    
+    color: rgb(255, 254, 254);
+}
+.slideshow{
+    display: none;
+}
+
+  
+  .container img {
+    width: fit-content;
+    height: fit-content;
+    object-fit: cover;
+
+  }
+  div{
+      vertical-align: text-bottom;
+  }
+  .experts{
+    position: absolute;
+    width: 900px;
+    height: 300px;
+   margin: 20% 18%;
+    text-align: center;
+  }
+  .experts h1{
+      text-align: center;
+      color: wheat;
+      text-transform: uppercase;
+      font-size: 90px;
+    
+  }
+  .experts button{
+      border: none;
+      border-radius: initial;
+  }
+  
+ 

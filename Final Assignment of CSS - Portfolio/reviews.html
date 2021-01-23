@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Final assignment</title>
+   <style>
+       *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+
+.menu-bar{
+list-style-type: none;
+}
+.menu-bar li{
+    display: inline-block;
+  
+    padding: 0px 20px;
+  
+}
+.menu-bar li a{
+    transition: all 0.3s ease os;
+    text-decoration: none;
+    color:black;
+
+}
+.menu-bar li a:hover{
+ 
+    
+    color: rgb(255, 254, 254);
+}
+.slideshow{
+    display: none;
+}
+
+  
+  .container img {
+    width: fit-content;
+    height: fit-content;
+    object-fit: cover;
+
+  }
+  div{
+      vertical-align: text-bottom;
+  }
+  button{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    width: 100px;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    background-color: lawngreen;
+   padding: 10px;
+}
+  .logo{
+    cursor: pointer;  
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px ;
+    background-image:none;
+    background-color: white;
+   
+}
+       
+.upper-header{
+    list-style-type: none;
+    color: black;
+}
+.upper-header li{
+    display: inline ;
+    padding: 0px 20px;
+}
+.upper-header li a{
+    transition: all 0.3s ease os;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+
+}
+.up h5{
+    color: cornsilk;
+    font-size: larger;
+    letter-spacing: 2px;
+    
+}
+.upper-header li a:hover{
+    color: rgb(255, 254, 254);
+}
+.up{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: black
+    
+}
+   </style>
+   
+</head>
+
+<body>   
+    
+    <header class="up">
+        <nav>
+            <ul class="upper-header">
+                <li><a href="https://www.facebook.com" class="fa fa-facebook"></a></li>
+                <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></li>
+                <li><a href="https://www.instagram.com"class="fa fa-instagram"></a></li>
+                <li><a href="https://www.linkedin.com" class="fa fa-linkedin"></a></li>
+            </ul>
+        </nav>
+        
+         <h5> <a class="fa fa-whatsapp">+92(312)123-4567</a> <a class="cta" href="#"><button>Call me Back</button></a></h5> 
+      
+
+    </header>
+    <header>
+  <a href="homepage.html"> <img class="logo" src="logo-color.png"/></a>
+
+        <nav > 
+            <ul class="menu-bar">
+        
+  <li>   
+       
+       
+        <li>   <b><a href="whyus.html">WHY US  </a></b></li>
+            <li> <b><a href="about.html">ABOUT</a></b></li>
+                <li><b><a href="services.html">SERVICE</a></b></li>
+                <li><b><a href="portfolio.html">PORTFOLIO </a></b></li>
+                <li><b><a href="process.html">PROCESS </a></b></li>
+                <li><b><a href="reviews.html">REVEIWS </a></b></li>
+                <li><b><a href="skill.html">OUR SKILLS</a></b></li>
+                <li><b><a href="contact.html">CONTACT US </a></b></li>
+  
+       </ul>
+        </nav>
+</header>
+
+
+    <form action="https://www.example.com/login.php" >
+        <fieldset>
+            <legend>Your Details</legend>
+        <p>Name 
+    <input type="text"> </p>
+    
+    <p>Email
+ 
+    <input type="text"> </p>
+        </fieldset>
+     <fieldset>
+         <legend>Yoyr review</legend>
+    <p>How did you hear about us?
+        <select>
+            <option>Google</option>
+            <option>relative</option>
+            <option>other</option>
+        </select>
+    </p>
+    <p> Would you visit again?</p>
+    <p>
+        <input type="radio" name="choice"/>Yes
+    <input type="radio" name="choice"/>No
+    <input type="radio" name="choice"/>Maybe
+
+    </p>
+ 
+
+    <p>Comments</p>
+    <textarea name="Comments" rows="4"></textarea>
+    <br />
+    <p>
+        <input type="checkbox" name="interest">
+           sign me up for email updates
+         
+       </p> 
+    <input type="submit">
+     </fieldset>
+    </form>
+</body>
+
+</html>
